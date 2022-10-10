@@ -67,21 +67,21 @@
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="pool" checked>
-                  Бассейн>
-                </label>
+                <input id="pool-checkbox" class="control-input" type="checkbox" name="pool" checked>
+                <label for="pool-checkbox" class="control">
+                  Бассейн
+                  </label>
                 </li>
                 <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="checkbox" name="parking" checked>
-                    Парковка>
+                  <input id="parking-checkbox" class="control-input" type="checkbox" name="parking" checked>
+                  <label for="parking-checkbox" class="control">
+                     Парковка
                   </label>
                   </li>
                   <li class="catalog-filter-item">
-                    <label class="control">
-                      <input class="control-input" type="checkbox" name="wifi">
-                      Wi-Fi>
+                    <input id="wifi-checkbox" class="control-input" type="checkbox" name="wifi">
+                    <label for="wifi-checkbox" class="control">
+                      Wi-Fi
                     </label>
                    </li>
               </ul>
@@ -91,25 +91,16 @@
               <legend class="catalog-filter-title">Тип Жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="radio" name="product-group" value="hotel" checked>
-
-                Гостиница
-                  </label>
+                  <input id="hotel-radio" class="control-input" type="radio" name="product-group" value="hotel" checked>
+                  <label for="hotel-radio" class="control">Гостиница</label>
                 </li>
                 <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="radio" name="product-group" value="motel" >
-
-                Мотель
-                  </label>
+                  <input id="motel-radio" class="control-input" type="radio" name="product-group" value="motel">
+                  <label for="motel-radio" class="control">Мотель</label>
                 </li>
                 <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="radio" name="product-group" value="apartments">
-
-                Апартаменты
-                  </label>
+                  <input id="apartments-radio" class="control-input" type="radio" name="product-group" value="apartments">
+                  <label for="apartments-radio" class="control">Апартаменты</label>
                 </li>
               </ul>
             </fieldset>
@@ -138,8 +129,11 @@
           <li class="product-card">
           <a class="product-card-link" href="product.html">
             <img class="product-card-image" src="" alt="">
+          </a>
+          <a class="product-card-link" href="product.html">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
+
           <span class="services-name">Гостиница</span>
           <span class="product-card-price">От 4000₽</span>
           <div>
@@ -160,8 +154,11 @@
           <li class="product-card">
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="">
+             </a>
+             <a class="product-card-link" href="product.html">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
-            </a>
+             </a>
+
             <span class="services-name">Гостиница</span>
             <span class="product-card-price">От 5000₽</span>
             <div>
@@ -175,15 +172,18 @@
                 <img class="star" src="" alt="">
                 <img class="star" src="" alt="">
               </div>
-              <span class="product-rating">РЕЙТИНГ: 9,2</span>
+              <span class="product-rating">Рейтинг: 9,2</span>
             </div>
             </li>
 
             <li class="product-card">
               <a class="product-card-link" href="product.html">
                 <img class="product-card-image" src="" alt="">
+              </a>
+              <a class="product-card-link" href="product.html">
                 <h3 class="product-card-title">Desert Quail Inn</h3>
               </a>
+
               <span class="services-name">Гостиница</span>
               <span class="product-card-price">От 2500₽</span>
               <div>
@@ -203,8 +203,11 @@
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
                   <img class="product-card-image" src="" alt="">
+                </a>
+                <a class="product-card-link" href="product.html">
                   <h3 class="product-card-title">GreenThree Inn</h3>
                 </a>
+
                 <span class="services-name">Гостиница</span>
                 <span class="product-card-price">От 1500₽</span>
                 <div>
@@ -253,7 +256,7 @@
 
           <input class="field"  placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email" required>
           <button class="button subscribe-button" type="submit">
-            <span class="visually-hidden">Подписаться</span>
+            <span>Подписаться</span>
           </button>
         </form>
 
