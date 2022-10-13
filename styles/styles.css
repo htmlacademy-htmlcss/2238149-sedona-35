@@ -61,3 +61,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.subscribe {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
