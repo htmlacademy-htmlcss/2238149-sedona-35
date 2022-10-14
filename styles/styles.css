@@ -47,6 +47,13 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
+  /* Допускается ли такое выравнивание картинки?
+  .logo{
+    display: block;
+    margin: 0 auto;
+  }*/
+
+
 
   /* List */
 .advantages-list {
@@ -60,6 +67,37 @@ body {
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.interest-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.reserve {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reserve-discription{
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.visually-hidden{
+  position: fixed;
+  transform: scale(0);
 }
 
 .subscribe {
