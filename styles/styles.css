@@ -14,31 +14,220 @@
   font-display: swap;
 }
 
+html{
+  height: 100%;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
+  list-style-type: none;
 }
 
-/* Pages */
+.page-container{
+  width: 1200px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
 
-.page-header {
+.main-header,
+.catalog-header {
   color: #000000;
   background-color: #ffffff;
   }
 
-  .navigation-link {
+  .navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0;
+  }
+
+  .main-header-logo {
+    width: 138px;
+    margin-right: 30px;
+    margin-left: 70px;
+  }
+
+  .menu-main {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-item,
+  .navigation-link  {
     font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    font-weight: 700;
-    font-style: normal;
+    text-align: center;
+    text-decoration: none;
     text-transform: capitalize;
-    color: #000000;
-    background-color: #ffffff;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 339;
   }
+
+  .info {
+    background: #FFFFFF;
+    text-align: center;
+  }
+
+    .info-title {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+
+  .info-description {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+  }
+
+/*
+page-container
+main-header
+navigation
+main-header-logo
+page-header-logo
+menu-main
+navigation-item
+navigation-link
+navigation-user
+visually-hidden
+button
+logo
+info
+info-title
+info-discription
+advantages
+sedona
+advantages-list-first
+advantages-item
+advantages-title
+advantages-discription
+advantages-item-screen
+advantages-list
+bridge
+advantages-item-screen-second
+services
+services-list
+services-item
+services-title
+services-discription
+reserve
+reserve-title
+reserve-data
+find
+main-footer
+footer-post
+main-subscribe-post
+main-footer-discription
+new-form
+field
+button-submit
+page-footer-container
+footer-social-list
+footer-social-item
+footer-social-item
+contacts
+contacts-title
+contacts-phone
+htmlacademy-link
+page-container
+catalog-header
+navigation
+navigation-logo
+page-header-logo
+menu-main
+menu-main navigation-user
+main-catalog main-container
+catalog-products
+inner-header
+inner-header-title
+breadcrumbs-list
+breadcrumbs-item
+breadcrumbs-link
+catalog-products
+catalog-filter
+catalog-filter-group
+catalog-filter-title
+catalog-filter-list
+catalog-filter-item
+control-input
+control
+sorting-container
+select-control
+button button-light
+product-list
+product-card
+product-card-link
+product-card-image
+product-card-title
+services-name
+product-card-price
+product-card-button button
+product-card-favourites button
+product-rating
+product-card-favourites button change
+pagination
+pagination-item
+pagination-link pagination-current
+pagination-link
+main-footer
+footer-post
+main-subscribe-post
+main-footer-discription
+new-form
+field
+button-submit
+page-footer-container
+footer-social-list
+footer-social-item
+contacts
+contacts-title
+contacts-phone
+htmlacademy-link
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .main-photo {
     color: #000000;
