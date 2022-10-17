@@ -272,6 +272,7 @@ body {
   background-image: url("..//images/filter.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
 
 .button {
   font-family: "PT Sans", sans-serif;
@@ -333,6 +334,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+}
 
 .footer-post {
   background-image: url("../images/background.png");
@@ -357,6 +359,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: white;
+}
 
 .footer-social-list,
 .pagination,
