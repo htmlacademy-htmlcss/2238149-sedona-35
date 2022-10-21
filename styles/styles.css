@@ -25,6 +25,9 @@ body {
   color: #000000;
   background-color: #ffffff;
   list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-container{
@@ -439,7 +442,9 @@ text-align: center;
 text-transform: uppercase;
 color: #333333;
 }
-
+.main-container{
+  flex-grow: 1;
+}
 
 /*
 -advantages
