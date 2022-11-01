@@ -150,8 +150,19 @@ body {
   }
 
   .advantages-item {
+   /* не пойму, что тут не так - вроде все взял с исходника?
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
     width: 230px;
-  }
+    height: 160px;
+    left: 85px;
+    top: 103px;
+  } */
 
   .advantages-title {
     font-family: "PT Sans", sans-serif;
@@ -444,6 +455,7 @@ text-align: center;
 text-transform: uppercase;
 color: #333333;
 }
+
 .main-container{
   flex-grow: 1;
 }
