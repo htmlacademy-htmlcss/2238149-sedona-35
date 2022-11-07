@@ -25,11 +25,15 @@ body {
   color: #000000;
   background-color: #ffffff;
   list-style-type: none;
-  margin: 0;
+  margin-left: 40px;
+  margin-right: 40px;
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  width: 1200px;
 }
+
+*, *::before, *::after{box-sizing: border-box;}
 
 .page-container{
   width: 1200px;
@@ -56,7 +60,7 @@ body {
   }
 
   .menu-main {
-    width: 500px;
+    width: 1200px;
     margin: 0;
     padding: 0;
   }
@@ -75,6 +79,7 @@ body {
     margin: 0;
     padding: 0;
     width: 339;
+    flex-direction: column;
   }
 
   .info {
@@ -120,34 +125,196 @@ body {
     Width: 100%;
   }
 
-  .sedona {
-    text-align: center;
+   .advantages-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0;
     margin: 0;
-    padding: 0;
+    flex-wrap: wrap;
+    text-align: center;
   }
 
-  .advantages-list-first {
-    margin-left: 85px;
+  .item{
+   display: flex;
+   padding: 0;
+   margin: 0;
+   flex-wrap: wrap;
+
+  }
+
+  .item-big{
+    width: 100%;
+    background: #82B3D3;
+  }
+
+  .item-small-one{
+    width: 33.33%;
+    justify-content: space-between;
+    background: rgba(131, 179, 211, 0.12);
+  }
+
+  .item-small-two{
+    width: 33.33%;
+    justify-content: space-between;
+    background: rgba(131, 179, 211, 0.2);
+  }
+
+  .item-small-three{
+    width: 33.33%;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .advantages-title-white {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
     margin-top: 92px;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 1200px;
+    margin-bottom: 62px;
+    padding-left: 112px;
+    padding-right: 112px;
+
   }
 
-  .advantages-list {
-    margin-left: 85px;
-    margin-top: 103px;
-    padding: 0;
+  .advantages-discription-white {
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+  .advantages-title {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000000;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    margin-top: 103px;
+    margin-bottom: 62px;
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+
+  .advantages-discription {
+    color: #333333;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-bottom: 121px;
+  }
+
+  .advantages-title-down {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000000;
+    display: flex;
+    margin-top: 182px;
+    margin-bottom: 30px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+  .advantages-discription-down {
+    color: #333333;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-bottom: 81px;
+  }
+
+  .screen-one{
+    width: 33.33%;
+  }
+
+  .advantages-item-screen{
+    width: 66.66%;
+  }
+
+  .screen-two{
+    width: 33.33%;
+  }
+
+  .advantages-item-screen-second{
+    width: 66.66%;
+  }
+
+  .reserve {
+    background-color: #FFFFFF;
     text-align: center;
   }
+
+  .reserve-title {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    display: flex;
+    margin-top: 96px;
+    margin-bottom: 20px;
+    padding-left: 451px;
+    padding-right: 451px;
+  }
+
+  .reserve-date {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    display: flex;
+    padding-left: 304px;
+    padding-right: 304px;
+    padding-bottom: 202px;
+  }
+
+  .find {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    width: 376px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #756157;
+    padding: 8px 50px;
+    border-radius: 4px;
+  }
+
+
+  /*
+
 
   .advantages-item {
    /* не пойму, что тут не так - вроде все взял с исходника?
@@ -162,34 +329,6 @@ body {
     height: 160px;
     left: 85px;
     top: 103px;
-  } */
-
-  .advantages-title {
-    font-family: "PT Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #000000;
-  }
-
-  .advantages-description {
-    color: #333333;
-    font-family: "PT Sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-  }
-
-  .bridge   {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-    width: 1200px;
   }
 
   .services-title {
@@ -219,29 +358,7 @@ body {
     color: #333333;
   }
 
-.reserve {
-  background-color: #FFFFFF;
-  text-align: center;
-}
 
-.reserve-title {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.reserve-date {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
-}
 
 .inner-header-title {
   font-family: "PT Sans", sans-serif;
@@ -261,18 +378,7 @@ body {
   color: #FFFFFF;
 }
 
-.find {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: aqua;
-}
+
 
 .catalog-filter-list {
   list-style-type: none;
@@ -395,7 +501,7 @@ body {
   line-height: 21px;
   color: #333333;
   }
-
+*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -409,6 +515,7 @@ body {
   overflow: hidden;
 }
 
+/*
 .product-card-link{
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -460,7 +567,7 @@ color: #333333;
   flex-grow: 1;
 }
 
-/*
+
 -advantages
 -advantages-item-screen
 -advantages-item-screen-second
