@@ -296,6 +296,7 @@ body {
     padding-left: 304px;
     padding-right: 304px;
     padding-bottom: 202px;
+    width: 100%;
   }
 
   .find {
@@ -316,6 +317,31 @@ body {
     border-radius: 4px;
   }
 
+  .page-footer-container{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  .footer-post{
+    background-image: url("../images/index-background.jpg");
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 258px 104px;
+    gap: 10px;
+
+    width: 1200px;
+    height: 414.86px;
+  }
+
+  .contacts{
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+  }
 
   /*
 
