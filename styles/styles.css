@@ -362,6 +362,60 @@ body {
   padding-right: 104px;
 }
 
+/*.new-form{
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width: 376px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+  padding: 8px 50px;
+  border-radius: 4px;
+}*/
+
+.field{
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width: 376px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+  padding: 8px 50px;
+  border-radius: 4px;
+}
+
+.submit{
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width: 376px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+  padding: 8px 50px;
+  border-radius: 4px;
+}
+
 
   .contacts{
     display: flex;
