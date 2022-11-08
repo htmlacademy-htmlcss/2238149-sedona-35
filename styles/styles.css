@@ -268,6 +268,7 @@ body {
   .reserve {
     background-color: #FFFFFF;
     text-align: center;
+    margin-bottom: 96px;
   }
 
   .reserve-title {
@@ -325,17 +326,42 @@ body {
   }
 
   .footer-post{
-    background-image: url("../images/index-background.jpg");
-
+    background-image: url("../images/background.png");
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 96px 258px 104px;
     gap: 10px;
-
     width: 1200px;
-    height: 414.86px;
+    height: 414.86px; /*Здесь можно использовать указание высоты блока? */
+    color: #ffffff;
+    text-align: center;
   }
+
+  .main-subscribe-post{
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    width: 684px;
+    padding-top: 0px;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+.main-footer-discription{
+  text-transform: none;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  padding-left: 104px;
+  padding-right: 104px;
+}
+
 
   .contacts{
     display: flex;
