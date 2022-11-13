@@ -20,6 +20,7 @@ html {
 
 body {
 	font-family: "PT Sans", sans-serif;
+  font-style: normal;
 	font-size: 18px;
 	line-height: 21px;
 	color: #000000;
@@ -30,6 +31,7 @@ body {
 	flex-direction: column;
 	min-height: 100%;
 	width: 1200px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 *,
@@ -91,8 +93,6 @@ body {
 
 .navigation-item,
 .navigation-link {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 24px;
@@ -118,8 +118,6 @@ body {
 }
 
 .button-up {
-font-family: "PT Sans", sans-serif;
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 20px;
@@ -135,42 +133,46 @@ background-color: #756157;
 padding: 8px 50px;
 border-radius: 4px;
 text-decoration: none;
-}*/
-
-.info {
-	background: #FFFFFF;
-	text-align: center;
 }
 
+.button-up:hover{
+  background-color: #615048;
+}
+
+.button-up:active{
+  color: #FFFFFF 30%;
+}
+
+.button-up:focus{
+  border: 3px solid #83B3D3;
+ }
+
+.info {
+	display: flex;
+  flex-direction: column;
+  padding: 69px 0 90px;
+  align-items: center;
+  text-align: center;
+  background: #FFFFFF;
+  }
+
 .info-title {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 36px;
 	text-transform: uppercase;
 	color: #000000;
   width: 620px;
-  text-align: center;
-  margin-left: 290px;
-  margin-right: 290px;
 }
 
 
 .info-description {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 26px;
 	color: #333333;
   width: 651px;
-  text-align: center;
-  margin-left: 275px;
-  margin-right: 274px;
-  margin-bottom: 90px;
-  margin-top: 25px;
-}
+  }
 
 .navigation-user {
 	max-width: 268px;
@@ -197,7 +199,7 @@ text-decoration: none;
 
 .welcome {
 	background-color: rgb(255, 255, 255);
-	background-image: url("../images/index-background.jpg"), url("../images/logowelcome.svg");
+	background-image: url("../images/index-background.jpg") ;
 	background-repeat: no-repeat;
 	background-size: cover;
 	Width: 100%;
@@ -224,101 +226,69 @@ text-decoration: none;
 	background: #82B3D3;
 }
 
-.item-small-one {
+.item-small,
+.screen-one {
 	width: 33.33%;
-	justify-content: space-between;
-	background: rgba(131, 179, 211, 0.12);
+	height: 384px;
+	display: flex;
+	padding: 103px 85px 20px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: rgba(131, 179, 211, 0.12);
 }
 
-.item-small-two {
-	width: 33.33%;
-	justify-content: space-between;
+.item-dark {
 	background: rgba(131, 179, 211, 0.2);
 }
 
-.item-small-three {
-	width: 33.33%;
-	justify-content: space-between;
-	background: rgba(255, 255, 255, 0.2);
+.item-light {
+	background: #fff;
 }
 
-.advantages-title-white {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 28px;
-	text-transform: uppercase;
-	color: #ffffff;
-	margin-top: 92px;
-	margin-bottom: 62px;
-	padding-left: 112px;
-	padding-right: 112px;
+.item-devider {
+	width: 60px;
+	height: 2px;
+	background: rgba(0, 0, 0, 0.3);
+	margin-top: 30px;
 }
 
-.advantages-discription-white {
-	color: #ffffff;
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 21px;
-	padding-left: 85px;
-	padding-right: 85px;
+.item-devider-white {
+	background:rgba(255, 255, 255, 0.3);
 }
 
 .advantages-title {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
 	text-transform: uppercase;
 	color: #000000;
 	display: flex;
-	margin-top: 103px;
-	margin-bottom: 62px;
-	padding-left: 112px;
-	padding-right: 112px;
+	margin: 0;
+	text-align: center;
+	max-width: 175px;
 }
 
 .advantages-discription {
 	color: #333333;
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
-	padding-left: 85px;
-	padding-right: 85px;
-	padding-bottom: 121px;
+	margin: 0;
+	margin-top: 30px;
 }
 
-.advantages-title-down {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 28px;
-	text-transform: uppercase;
-	color: #000000;
-	width: 100%;
-	margin-top: 182px;
+.advantages-title-white {
+	color: #ffffff;
+}
+
+.advantages-discription-white {
+	color: #ffffff;
+}
+
+.advantages-item-icon {
 	margin-bottom: 30px;
-	padding-left: 85px;
-	padding-right: 85px;
-}
-
-.advantages-discription-down {
-	color: #333333;
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 21px;
-	padding-left: 85px;
-	padding-right: 85px;
-	padding-bottom: 81px;
+	margin-top: -23px;
 }
 
 .screen-one {
@@ -342,57 +312,64 @@ text-decoration: none;
 }
 
 .reserve {
-	background-color: #FFFFFF;
-	text-align: center;
-	margin-bottom: 96px;
+	display: flex;
+  flex-direction: column;
+  padding: 96px 0 96px;
+  text-align: center;
+  background-color: #FFFFFF;
+	align-items: center;
+  margin: 0;
+
 }
 
 .reserve-title {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 36px;
 	text-transform: uppercase;
 	color: #000000;
-	display: flex;
-	margin-top: 96px;
-	margin-bottom: 20px;
-	padding-left: 451px;
-	padding-right: 451px;
-}
+  display: flex;
+  text-align: center;
+  margin: 0;
+	}
 
-.reserve-date {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
-	font-weight: 400;
+.reserve-data {
+	margin: 0;
+  font-weight: 400;
 	font-size: 22px;
 	line-height: 26px;
 	color: #333333;
-	display: flex;
-	padding-left: 304px;
-	padding-right: 304px;
-	padding-bottom: 202px;
-	width: 100%;
-}
+  padding-top: 20px;
+  padding-bottom: 54px;
+	}
 
 .find {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 36px;
 	width: 376px;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+  height: 52px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	background-color: #756157;
-	padding: 8px 50px;
 	border-radius: 4px;
-}
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .find:hover{
+    background-color: #615048;
+  }
+
+  .find:active{
+    color: #FFFFFF 30%;
+  }
+
+  .find:focus{
+    border: 3px solid #83B3D3;
+   }
 
 .page-footer-container {
 	display: flex;
@@ -415,8 +392,6 @@ text-decoration: none;
 
 .main-subscribe-post {
 	text-transform: uppercase;
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 36px;
@@ -429,8 +404,6 @@ text-decoration: none;
 
 .main-footer-discription {
 	text-transform: none;
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 26px;
@@ -441,11 +414,9 @@ text-decoration: none;
 .new-form {
 	width: 684px;
 	display: flex;
-}
+  }
 
 .field {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 24px;
@@ -458,12 +429,12 @@ text-decoration: none;
 	color: #000000;
 	background-color: #f2f2f2;
 	padding: 12px 20px;
+  border: 0;
+  border-radius: 4px 0px 0px 4px;
 
 }
 
 .button-submit {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 36px;
@@ -477,6 +448,8 @@ text-decoration: none;
 	color: #FFFFFF;
 	background-color: #82B3D3;
 	padding: 8px 50px;
+  border: 0;
+  border-radius: 0px 4px 4px 0px;
 }
 
 .page-footer-container {
