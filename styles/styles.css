@@ -141,10 +141,13 @@ text-decoration: none;
 
 .button-up:active{
   color: #FFFFFF 30%;
+  background-color: #756157;
 }
 
 .button-up:focus{
-  border: 3px solid #83B3D3;
+  outline-style: solid;
+  outline-color: #83B3D3;
+  outline-width: 3px;
  }
 
 .info {
