@@ -202,7 +202,7 @@ text-decoration: none;
 
 .welcome {
 	background-color: rgb(255, 255, 255);
-	background-image: url("../images/index-background.jpg") ;
+	background-image: url("../images/index_background.jpg") ;
 	background-repeat: no-repeat;
 	background-size: cover;
 	Width: 100%;
