@@ -200,7 +200,7 @@ body {
 }
 
 .welcome {
-  background-color: rgb(255, 255, 255);
+  background-color: #396e98;
   background-image: url("../images/index_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -380,6 +380,7 @@ body {
 
 .footer-post {
   background-image: url("../images/background.png");
+  background-color: #396e98;
   flex-direction: column;
   justify-content: center;
   align-items: center;
