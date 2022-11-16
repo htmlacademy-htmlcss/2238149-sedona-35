@@ -246,6 +246,11 @@ body {
 
 .item-light {
   background: #fff;
+  background-image: url("../images/food.svg");
+  background-repeat:  no-repeat;
+  background-position:center 80px;
+  background-size: 74px 70px;
+
 }
 
 .image-house{
@@ -253,6 +258,13 @@ body {
   background-repeat:  no-repeat;
   background-position:center 80px;
   background-size: 75px 72px;
+}
+
+.image-memory{
+  background-image: url("../images/souvenirs_vector.svg");
+  background-repeat:  no-repeat;
+  background-position:center 80px;
+  background-size: 64px 76px;
 }
 
 .advantages-title {
