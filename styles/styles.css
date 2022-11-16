@@ -420,10 +420,13 @@ body {
 
 .find:active {
   color: #ffffff 30%;
+  background-color: #756157;
 }
 
 .find:focus {
-  border: 3px solid #83b3d3;
+  outline-style: solid;
+  outline-color: #83B3D3;
+  outline-width: 3px;
 }
 
 .page-footer-container {
@@ -505,6 +508,21 @@ body {
   padding: 8px 50px;
   border: 0;
   border-radius: 0px 4px 4px 0px;
+}
+
+.button-submit:hover {
+  background-color: #68A2CA;
+}
+
+.button-submit:active {
+  color: #ffffff 0.3;
+  background-color: #68A2CA;
+}
+
+.button-submit:focus {
+  outline-style: solid;
+  outline-color: #68A2CA;
+  outline-width: 3px;
 }
 
 .page-footer-container {
