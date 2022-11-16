@@ -105,6 +105,17 @@ body {
   width: 339;
   flex-direction: column;
   list-style: none;
+  position: relative;
+}
+
+.navigation-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #000000;
 }
 
 .navigation-one {
@@ -221,17 +232,18 @@ body {
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
-}
+  }
 
 .item-big {
   width: 100%;
   background: #82b3d3;
+  min-height: 384px;
 }
 
 .item-small,
 .screen-one {
   width: 33.33%;
-  height: 384px;
+  min-height: 384px;
   display: flex;
   padding: 103px 85px 20px;
   flex-direction: column;
@@ -242,6 +254,7 @@ body {
 
 .item-dark {
   background: rgba(131, 179, 211, 0.2);
+  min-height: 384px;
 }
 
 .item-light {
@@ -250,7 +263,7 @@ body {
   background-repeat:  no-repeat;
   background-position:center 80px;
   background-size: 74px 70px;
-
+  min-height: 384px;
 }
 
 .image-house{
@@ -330,7 +343,7 @@ body {
     text-align: center;
     max-width: 175px;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-top: 102px;
   }
 
   .advantages-discription-down {
@@ -468,6 +481,7 @@ body {
   line-height: 26px;
   padding-left: 104px;
   padding-right: 104px;
+  min-height: 384px;
 }
 
 .new-form {
