@@ -130,6 +130,11 @@ body {
 	width: 125px;
 }
 
+.button{
+  width: 26px;
+  height: 20px;
+  }
+
 .button-up {
 	font-weight: 700;
 	font-size: 16px;
