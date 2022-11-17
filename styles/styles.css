@@ -133,7 +133,8 @@ body {
 .button{
   width: 26px;
   height: 20px;
-  }
+  padding: 10px;
+}
 
 .button-up {
 	font-weight: 700;
@@ -555,7 +556,7 @@ body {
 }
 
 .footer-social-item {
-	width: 48px;
+	width: 50px;
 	color: #ffffff;
 }
 
