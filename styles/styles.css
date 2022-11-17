@@ -58,9 +58,8 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: flex-start;
-  padding: 0px 70px;
+  padding: 0px 23px;
 }
 
 .main-header-logo {
@@ -82,13 +81,14 @@ body {
 }
 
 .navigation-search{
-  width: 268px;
   min-height: 64px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   margin: 0;
+  margin-left: auto;
+  padding-right: 24px;
 }
 
 
@@ -141,7 +141,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756157;
-  padding: 8px 50px;
+  padding: 8px 35px;
   border-radius: 4px;
   text-decoration: none;
 }
