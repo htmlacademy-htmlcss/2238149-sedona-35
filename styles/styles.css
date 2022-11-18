@@ -460,10 +460,9 @@ body {
 	padding: 96px 258px 104px;
 	gap: 10px;
 	width: 1200px;
-	height: 415px;
 	color: #ffffff;
 	text-align: center;
-  min-height: 415px;
+  	min-height: 415px;
 }
 
 .main-subscribe-post {
