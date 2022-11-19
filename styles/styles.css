@@ -78,7 +78,7 @@ body {
 .menu-main {
 	width: 1200px;
 	margin: 0;
-	padding: 0;
+	padding: 17px 0 20px;
 	width: 339px;
 	display: flex;
 	flex-direction: row;
@@ -110,7 +110,7 @@ body {
 	text-transform: capitalize;
 	color: black;
 	margin: 0;
-	padding: 0;
+	padding: 3px 0;
  	flex-direction: column;
 	list-style: none;
 	position: relative;
@@ -125,7 +125,7 @@ body {
 	fill: #000000;
 }
 
-.navigation-icon :hover{
+.navigation-link:hover{
 	opacity: 0.5;
 }
 
@@ -512,6 +512,8 @@ position: absolute;
 }
 
 .field {
+  font-family: "PT Sans";
+	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 24px;
@@ -529,6 +531,8 @@ position: absolute;
 }
 
 .button-submit {
+  font-family: "PT Sans";
+	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 36px;
@@ -575,6 +579,7 @@ position: absolute;
 	padding: 0px;
   margin-top: 55px;
   margin-left: 2px;
+  list-style: none;
 }
 
 .footer-social-item {
@@ -607,4 +612,89 @@ position: absolute;
 .htmlacademy-link {
   padding-left: 39px;
   padding-top: 4px;
+}
+
+.navigation-link--current::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -17px;
+  width: 100%;
+  height: 2px;
+  background-color: #756257;
+}
+
+.navigation-item-count {
+  position: absolute;
+  right: -10px;
+  top: -6px;
+  background: #7DB54F;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 11px;
+}
+
+.navigation-item--favorite {
+  margin-right: 32px;
+  margin-left: 25px;
+}
+
+.item-small--blue {
+  padding-top: 92px;
+}
+
+.logo-academy{
+  margin-left: -2px;
+  color: #000000;
+}
+.social-icons{
+color: #83B3D3;
+}
+
+.logo-academy:hover{
+    color: #756157;
+    opacity: 0.5;
+}
+
+.social-icons:hover{
+color: #68A2CA;
+opacity: 0.5;
+}
+
+.contacts-phone:hover{
+color: #756157;
+}
+
+.logo-academy:focus{
+  outline-style: solid;
+	outline-color: #756157;
+	outline-width: 3px;
+}
+
+.contacts-phone:focus{
+  outline-style: solid;
+	outline-color: #756157;
+	outline-width: 3px;
+}
+
+.social-icons:focus{
+  outline-style: solid;
+	outline-color: #68A2CA;
+	outline-width: 3px;
+}
+
+.logo-academy:active{
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.contacts-phone:active{
+  color: #7561574D;
+  }
+.social-icons:active{
+color: rgba(104, 162, 202, 0.3);
 }
