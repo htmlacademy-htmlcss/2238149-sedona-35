@@ -173,17 +173,6 @@ body {
 	background-color: #615048;
 }
 
-.button-up:active {
-	color: #ffffff 30%;
-	background-color: #756157;
-}
-
-.button-up:focus {
-	outline-style: solid;
-	outline-color: #83b3d3;
-	outline-width: 3px;
-}
-
 .info {
 	display: flex;
 	flex-direction: column;
@@ -235,7 +224,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 50px;
-	/*min-height: 459px;*/
+
 }
 
 .advantages-list {
@@ -451,17 +440,6 @@ body {
 	background-color: #615048;
 }
 
-.find:active {
-	color: #ffffff 30%;
-	background-color: #756157;
-}
-
-.find:focus {
-	outline-style: solid;
-	outline-color: #83B3D3;
-	outline-width: 3px;
-}
-
 .page-footer-container {
 	display: flex;
 	width: 1200px;
@@ -554,17 +532,6 @@ body {
 	background-color: #68A2CA;
 }
 
-.button-submit:active {
-	color: #ffffff 0.3;
-	background-color: #68A2CA;
-}
-
-.button-submit:focus {
-	outline-style: solid;
-	outline-color: #68A2CA;
-	outline-width: 3px;
-}
-
 .page-footer-container {
 	display: flex;
 	width: 1060px;
@@ -655,44 +622,54 @@ body {
 	color: #83B3D3;
 }
 
-.htmlacademy-link:hover {
-	color: #756157;
+.logo-academy:hover path {fill: #756157;
 }
 
-.htmlacademy-link:focus {
-	outline-style: solid;
-	outline-color: #756157;
-	outline-width: 3px;
+.logo-academy:focus path {fill: #756157;
 }
 
-.htmlacademy-link:active {
-	color: rgba(117, 97, 87, 0.3);
+.logo-academy:active path {fill: rgba(117, 97, 87, 0.3);
 }
 
-.button:hover {
-	color: #68A2CA;
-	}
-
-.button:focus {
-	outline-style: solid;
-	outline-color: #68A2CA;
-	outline-width: 3px;
+.button path {fill: #83B3D3
 }
 
-.button:active {
-	color: rgba(104, 162, 202, 0.3);
+.button:hover path {fill: #68A2CA
+}
+
+.button:focus path {fill: #68A2CA
+}
+
+.button:active path {fill: rgba(104, 162, 202, 0.3)
 }
 
 .contacts-phone:hover {
 	color: #756157;
 }
 
-.contacts-phone:focus {
-	outline-style: solid;
-	outline-color: #756157;
-	outline-width: 3px;
+.button-up:active {color: rgba(255, 255, 255, 0.3);
 }
 
-.contacts-phone:active {
-	color: #7561574D;
+.find:active {color: rgba(255, 255, 255, 0.3);
+}
+
+.button-submit:active {color: rgba(255, 255, 255, 0.3);
+}
+
+.button-submit:focus {background: #68A2CA;
+}
+
+.button-up:focus {background: #615048;
+}
+
+.find:focus {background: #615048
+}
+
+.field:hover {background: #E6E6E6;
+}
+
+.contacts-phone:focus {color: #756157;
+}
+
+.contacts-phone:active {color: rgba(117, 97, 87, 0.3);
 }
