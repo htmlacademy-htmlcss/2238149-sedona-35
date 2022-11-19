@@ -622,57 +622,74 @@ body {
 	color: #83B3D3;
 }
 
-.logo-academy:hover path {fill: #756157;
+.logo-academy:hover path {
+	fill: #756157;
 }
 
-.logo-academy:focus path {fill: #756157;
+.logo-academy:focus path {
+	fill: #756157;
 }
 
-.logo-academy:active path {fill: rgba(117, 97, 87, 0.3);
+.logo-academy:active path {
+	fill: rgba(117, 97, 87, 0.3);
 }
 
-.button path {fill: #83B3D3
+.button path {
+	fill: #83B3D3
 }
 
-.button:hover path {fill: #68A2CA
+.button:hover path {
+	fill: #68A2CA
 }
 
-.button:focus path {fill: #68A2CA
+.button:focus path {
+	fill: #68A2CA
 }
 
-.button:active path {fill: rgba(104, 162, 202, 0.3)
+.button:active path {
+	fill: rgba(104, 162, 202, 0.3)
 }
 
 .contacts-phone:hover {
 	color: #756157;
 }
 
-.button-up:active {color: rgba(255, 255, 255, 0.3);
+.button-up:active {
+	color: rgba(255, 255, 255, 0.3);
 }
 
-.find:active {color: rgba(255, 255, 255, 0.3);
+.find:active {
+	color: rgba(255, 255, 255, 0.3);
 }
 
-.button-submit:active {color: rgba(255, 255, 255, 0.3);
+.button-submit:active {
+	color: rgba(255, 255, 255, 0.3);
 }
 
-.button-submit:focus {background: #68A2CA;
+.button-submit:focus {
+	background: #68A2CA;
 }
 
-.button-up:focus {background: #615048;
+.button-up:focus {
+	background: #615048;
 }
 
-.find:focus {background: #615048
+.find:focus {
+	background: #615048
 }
 
-.field:hover {background: #E6E6E6;
+.field:hover {
+	background: #E6E6E6;
 }
 
-.contacts-phone:focus {color: #756157;
+.contacts-phone:focus {
+	color: #756157;
 }
 
-.contacts-phone:active {color: rgba(117, 97, 87, 0.3);
+.contacts-phone:active {
+	color: rgba(117, 97, 87, 0.3);
 }
 
-.htmlacademy-link:focus path {fill: #756157;
+.htmlacademy-link:focus path {
+	fill: #756157;
 }
