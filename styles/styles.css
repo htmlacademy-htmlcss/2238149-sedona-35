@@ -46,7 +46,14 @@ body {
 	margin: 0 auto;
 }
 
-.main-header,
+.main-header{
+  color: #000000;
+  margin-bottom: -9px;
+  position: relative;
+  z-index: 1;
+}
+
+
 .catalog-header {
 	color: #000000;
 	background-color: #ffffff;
@@ -70,7 +77,6 @@ body {
 
 .menu-main {
 	width: 1200px;
-	height: 64px;
 	margin: 0;
 	padding: 0;
 	width: 339px;
@@ -78,6 +84,8 @@ body {
 	flex-direction: row;
 	align-items: center;
 	list-style: none;
+	flex-wrap: wrap;
+  min-height: 64px;
 }
 
 .navigation-search {
@@ -103,11 +111,10 @@ body {
 	color: black;
 	margin: 0;
 	padding: 0;
-
-	flex-direction: column;
+ 	flex-direction: column;
 	list-style: none;
 	position: relative;
-}
+	}
 
 .navigation-icon {
 	top: 0;
@@ -116,6 +123,10 @@ body {
 	left: 0;
 	margin: auto;
 	fill: #000000;
+}
+
+.navigation-icon :hover{
+	opacity: 0.5;
 }
 
 .navigation-one {
@@ -128,6 +139,10 @@ body {
 
 .navigation-three {
 	width: 125px;
+}
+
+.favourites{
+position: absolute;
 }
 
 .button{
@@ -172,7 +187,7 @@ body {
 .info {
 	display: flex;
 	flex-direction: column;
-	padding: 69px 0 90px;
+	padding: 44px 0 90px;
 	align-items: center;
 	text-align: center;
 	background: #ffffff;
@@ -193,6 +208,7 @@ body {
 	line-height: 26px;
 	color: #333333;
 	width: 651px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -218,7 +234,8 @@ body {
 	background-image: url("../images/index_background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*margin-top: -10px;*/
+	padding-top: 50px;
+  /*min-height: 459px;*/
 }
 
 .advantages-list {
@@ -346,7 +363,7 @@ body {
 	text-align: center;
 	max-width: 175px;
 	flex-direction: column;
-	margin-top: 102px;
+	margin-top: 80px;
 }
 
 .advantages-discription-down {
@@ -463,6 +480,7 @@ body {
 	color: #ffffff;
 	text-align: center;
   	min-height: 415px;
+	background-size: cover;
 }
 
 .main-subscribe-post {
@@ -484,11 +502,13 @@ body {
 	line-height: 26px;
 	padding-left: 104px;
 	padding-right: 104px;
+  margin-top: 21px;
 	}
 
 .new-form {
 	width: 684px;
 	display: flex;
+  padding-top: 32px;
 }
 
 .field {
@@ -553,6 +573,8 @@ body {
 	flex-direction: row;
 	align-items: center;
 	padding: 0px;
+  margin-top: 55px;
+  margin-left: 2px;
 }
 
 .footer-social-item {
@@ -562,16 +584,16 @@ body {
 
 .contacts {
 	display: flex;
-	width: 877px;
+	width: 977px;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px;
+	padding: 44px;
 }
 
 .contacts-phone {
 	width: 720px;
-	padding-left: 195px;
+	padding-left: 192px;
 	padding-right: 194px;
 	font-family: "PT Sans", sans-serif;
 	font-style: normal;
@@ -582,4 +604,7 @@ body {
 	text-decoration: none;
 }
 
-.htmlacademy-link {}
+.htmlacademy-link {
+  padding-left: 39px;
+  padding-top: 4px;
+}
