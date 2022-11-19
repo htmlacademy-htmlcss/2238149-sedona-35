@@ -657,16 +657,6 @@ body {
 
 .htmlacademy-link:hover {
 	color: #756157;
-	opacity: 0.5;
-}
-
-.button:hover {
-	color: #68A2CA;
-	opacity: 0.5;
-}
-
-.contacts-phone:hover {
-	color: #756157;
 }
 
 .htmlacademy-link:focus {
@@ -675,11 +665,13 @@ body {
 	outline-width: 3px;
 }
 
-.contacts-phone:focus {
-	outline-style: solid;
-	outline-color: #756157;
-	outline-width: 3px;
+.htmlacademy-link:active {
+	color: rgba(117, 97, 87, 0.3);
 }
+
+.button:hover {
+	color: #68A2CA;
+	}
 
 .button:focus {
 	outline-style: solid;
@@ -687,14 +679,20 @@ body {
 	outline-width: 3px;
 }
 
-.htmlacademy-link:active {
-	color: rgba(117, 97, 87, 0.3);
+.button:active {
+	color: rgba(104, 162, 202, 0.3);
+}
+
+.contacts-phone:hover {
+	color: #756157;
+}
+
+.contacts-phone:focus {
+	outline-style: solid;
+	outline-color: #756157;
+	outline-width: 3px;
 }
 
 .contacts-phone:active {
 	color: #7561574D;
-}
-
-.button:active {
-	color: rgba(104, 162, 202, 0.3);
 }
