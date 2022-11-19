@@ -597,9 +597,7 @@ body {
 }
 
 .contacts-phone {
-	width: 720px;
-	padding-left: 192px;
-	padding-right: 194px;
+	margin: 0 auto;
 	font-family: "PT Sans", sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -657,12 +655,12 @@ body {
 	color: #83B3D3;
 }
 
-.logo-academy:hover {
+.htmlacademy-link:hover {
 	color: #756157;
 	opacity: 0.5;
 }
 
-.social-icons:hover {
+.button:hover {
 	color: #68A2CA;
 	opacity: 0.5;
 }
@@ -671,7 +669,7 @@ body {
 	color: #756157;
 }
 
-.logo-academy:focus {
+.htmlacademy-link:focus {
 	outline-style: solid;
 	outline-color: #756157;
 	outline-width: 3px;
@@ -683,13 +681,13 @@ body {
 	outline-width: 3px;
 }
 
-.social-icons:focus {
+.button:focus {
 	outline-style: solid;
 	outline-color: #68A2CA;
 	outline-width: 3px;
 }
 
-.logo-academy:active {
+.htmlacademy-link:active {
 	color: rgba(117, 97, 87, 0.3);
 }
 
@@ -697,6 +695,6 @@ body {
 	color: #7561574D;
 }
 
-.social-icons:active {
+.button:active {
 	color: rgba(104, 162, 202, 0.3);
 }
